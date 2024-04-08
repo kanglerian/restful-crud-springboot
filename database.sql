@@ -1,0 +1,6 @@
+CREATE TABLE users (
+    id int NOT NULL AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    PRIMARY KEY (id)
+) ENGINE InnoDB;
